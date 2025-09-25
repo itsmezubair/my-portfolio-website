@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Zubair | Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <header id="header">
+      <a href="#home" class="logo-link">
+        <img
+          src="assets/images/logo.png"
+          alt="Muhammad Zubair Logo"
+          class="logo-img"
+        />
+      </a>
+      <nav class="main-nav">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#lets-talk" class="cta-button">Let's Talk</a>
+      <button class="menu-toggle" id="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </button>
+    </header>
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h3 id="intro-line" class="initial-hidden">Hi, I'm</h3>
+          <h1 id="name-line"></h1>
+          <h2 class="initial-hidden">I'm a <span id="typed-text"></span></h2>
+          <div class="social-links initial-hidden">
+            <a
+              href="https://www.linkedin.com/in/its-muhammad-zubair/"
+              target="_blank"
+              aria-label="LinkedIn Profile"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/itsmezubair"
+              target="_blank"
+              aria-label="GitHub Profile"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://x.com/its_zubeyr"
+              target="_blank"
+              aria-label="Twitter Profile"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+          <div class="hero-buttons initial-hidden">
+            <a href="#projects" class="btn">View My Work &rarr;</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch &rarr;</a>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <h2 class="animate-on-scroll fade-in">About Me</h2>
+        <div class="about-container">
+          <img
+            src="assets/images/profile.jpeg"
+            alt="A photo of Muhammad Zubair"
+            class="profile-pic animate-on-scroll slide-in-from-left"
+          />
+          <div class="about-text animate-on-scroll slide-in-from-right">
+            <p>
+              Hello! I'm Muhammad Zubair, a dedicated and creative web developer
+              based in Karachi. I specialize in building modern, responsive, and
+              user-friendly websites. My passion lies in turning ideas into
+              tangible digital experiences. Let's build something amazing
+              together!
+            </p>
+            <div class="about-buttons">
+              <a href="zubair-cv.pdf" download="Zubair's CV.pdf" class="btn">
+                <i class="fas fa-download"></i> Download CV
+              </a>
+              <a
+                href="https://github.com/itsmezubair"
+                target="_blank"
+                class="btn btn-secondary"
+              >
+                <i class="fab fa-github"></i> View GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <h2 class="animate-on-scroll fade-in">My Skills</h2>
+        <div class="skills-grid">
+          <div
+            class="skill-card animate-on-scroll zoom-in"
+            style="--percent: 95"
+          >
+            <div class="skill-circle">
+              <svg class="progress-ring">
+                <circle
+                  class="progress-ring__track"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+                <circle
+                  class="progress-ring__circle"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+              </svg>
+              <i class="fab fa-html5"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>Markup</p>
+            <div class="skill-level">
+              <div class="percent-bar"></div>
+              <div class="skill-percent">95%</div>
+            </div>
+          </div>
+          <div
+            class="skill-card animate-on-scroll zoom-in"
+            style="--percent: 90"
+          >
+            <div class="skill-circle">
+              <svg class="progress-ring">
+                <circle
+                  class="progress-ring__track"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+                <circle
+                  class="progress-ring__circle"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+              </svg>
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>Styling</p>
+            <div class="skill-level">
+              <div class="percent-bar"></div>
+              <div class="skill-percent">85%</div>
+            </div>
+          </div>
+          <div
+            class="skill-card animate-on-scroll zoom-in"
+            style="--percent: 85"
+          >
+            <div class="skill-circle">
+              <svg class="progress-ring">
+                <circle
+                  class="progress-ring__track"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+                <circle
+                  class="progress-ring__circle"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+              </svg>
+              <i class="devicon-javascript-plain"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>Language</p>
+            <div class="skill-level">
+              <div class="percent-bar"></div>
+              <div class="skill-percent">80%</div>
+            </div>
+          </div>
+          <div
+            class="skill-card animate-on-scroll zoom-in"
+            style="--percent: 80"
+          >
+            <div class="skill-circle">
+              <svg class="progress-ring">
+                <circle
+                  class="progress-ring__track"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+                <circle
+                  class="progress-ring__circle"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+              </svg>
+              <i class="devicon-react-original"></i>
+            </div>
+            <h3>React</h3>
+            <p>Library</p>
+            <div class="skill-level">
+              <div class="percent-bar"></div>
+              <div class="skill-percent">70%</div>
+            </div>
+          </div>
+          <div
+            class="skill-card animate-on-scroll zoom-in"
+            style="--percent: 70"
+          >
+            <div class="skill-circle">
+              <svg class="progress-ring">
+                <circle
+                  class="progress-ring__track"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+                <circle
+                  class="progress-ring__circle"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+              </svg>
+              <i class="fab fa-node-js"></i>
+            </div>
+            <h3>Node.js</h3>
+            <p>Runtime</p>
+            <div class="skill-level">
+              <div class="percent-bar"></div>
+              <div class="skill-percent">70%</div>
+            </div>
+          </div>
+          <div
+            class="skill-card animate-on-scroll zoom-in"
+            style="--percent: 95"
+          >
+            <div class="skill-circle">
+              <svg class="progress-ring">
+                <circle
+                  class="progress-ring__track"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+                <circle
+                  class="progress-ring__circle"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+              </svg>
+              <i class="fab fa-bootstrap"></i>
+            </div>
+            <h3>Bootstrap</h3>
+            <p>Framework</p>
+            <div class="skill-level">
+              <div class="percent-bar"></div>
+              <div class="skill-percent">80%</div>
+            </div>
+          </div>
+          <div
+            class="skill-card animate-on-scroll zoom-in"
+            style="--percent: 85"
+          >
+            <div class="skill-circle">
+              <svg class="progress-ring">
+                <circle
+                  class="progress-ring__track"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+                <circle
+                  class="progress-ring__circle"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+              </svg>
+              <i class="fab fa-github"></i>
+            </div>
+            <h3>GitHub</h3>
+            <p>Tools</p>
+            <div class="skill-level">
+              <div class="percent-bar"></div>
+              <div class="skill-percent">85%</div>
+            </div>
+          </div>
+          <div
+            class="skill-card animate-on-scroll zoom-in"
+            style="--percent: 75"
+          >
+            <div class="skill-circle">
+              <svg class="progress-ring">
+                <circle
+                  class="progress-ring__track"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+                <circle
+                  class="progress-ring__circle"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+              </svg>
+              <i class="devicon-typescript-plain"></i>
+            </div>
+            <h3>TypeScript</h3>
+            <p>Language</p>
+            <div class="skill-level">
+              <div class="percent-bar"></div>
+              <div class="skill-percent">75%</div>
+            </div>
+          </div>
+          <div
+            class="skill-card animate-on-scroll zoom-in"
+            style="--percent: 80"
+          >
+            <div class="skill-circle">
+              <svg class="progress-ring">
+                <circle
+                  class="progress-ring__track"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+                <circle
+                  class="progress-ring__circle"
+                  stroke-width="8"
+                  fill="transparent"
+                  r="54"
+                  cx="60"
+                  cy="60"
+                />
+              </svg>
+              <i class="devicon-python-plain"></i>
+            </div>
+            <h3>Python</h3>
+            <p>Language</p>
+            <div class="skill-level">
+              <div class="percent-bar"></div>
+              <div class="skill-percent">75%</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <h2 class="animate-on-scroll fade-in">My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card animate-on-scroll slide-in-from-bottom">
+            <img
+              src="assets/images/project1.png"
+              alt="Screenshot of Project One"
+            />
+            <h3>Gym Website</h3>
+            <p>
+              A responsive and user-friendly landing page for a Karachi-based gym, designed
+              for member registration. This project features a clear user form
+              and navigation. 
+            </p>
+            <a
+              href="https://itsmezubair.github.io/my-gym-website/"
+              class="btn"
+              target="_blank"
+              >Live Demo</a
+            >
+          </div>
+          <div class="project-card animate-on-scroll slide-in-from-bottom">
+            <img
+              src="assets/images/project2.png"
+              alt="Screenshot of Project Two"
+            />
+            <h3>E-commerce Store</h3>
+            <p>
+              A clean and fully responsive e-commerce store, built with a focus
+              on user-friendly design. This project ensures a seamless shopping
+              experience on any device.
+            </p>
+            <a
+              href="https://hackathon-2-three-eta.vercel.app/"
+              class="btn"
+              target="_blank"
+              >Live Demo</a
+            >
+          </div>
+          <div class="project-card animate-on-scroll slide-in-from-bottom">
+            <img
+              src="assets/images/project3.png"
+              alt="Screenshot of Project Three"
+            />
+            <h3>My Portfolio</h3>
+            <p>
+              A dynamic personal portfolio built to showcase my software
+              development skills. It features modern animations and a fully
+              responsive design for a seamless experience on any device.
+            </p>
+            <a href="#" class="btn" target="_blank">Live Demo</a>
+          </div>
+        </div>
+      </section>
+      <section id="lets-talk">
+        <div class="lets-talk-content animate-on-scroll zoom-in">
+          <h1>HELLO</h1>
+          <h2>Let's Create Something <span>Amazing</span></h2>
+          <p>
+            Ready to bring your ideas to life? Choose your preferred way to get
+            in touch!
+          </p>
+          <a href="#contact" class="btn">Get In Touch &rarr;</a>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-container">
+          <div class="contact-info animate-on-scroll slide-in-from-left">
+            <h2>Get In Touch</h2>
+            <p class="subtitle">
+              I'm always open to discussing new projects, creative ideas, or
+              opportunities to be part of your visions.
+            </p>
+            <div class="contact-grid">
+              <div class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>Drop me a line</p>
+                <a href="mailto:m.zubairmughal50@gmail.com"
+                  >m.zubairmughal50@gmail.com</a
+                >
+              </div>
+              <div class="contact-card">
+                <i class="fab fa-linkedin"></i>
+                <h3>LinkedIn</h3>
+                <p>Let's connect</p>
+                <a
+                  href="https://www.linkedin.com/in/its-muhammad-zubair/"
+                  target="_blank"
+                  >View Profile</a
+                >
+              </div>
+              <div class="contact-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Location</h3>
+                <p>Based in Pakistan</p>
+                <span>Karachi, Sindh</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="contact-form-container animate-on-scroll slide-in-from-right"
+          >
+            <h3>Send Me a Message</h3>
+            <form
+              action="https://formspree.io/f/mzzjblkv"
+              method="POST"
+              class="contact-form"
+            >
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="your.email@example.com"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Project discussion"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Tell me about your project..."
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 - Muhammad Zubair. All Rights Reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
